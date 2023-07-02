@@ -1,0 +1,15 @@
+{
+  "name": "foodie-app",
+  "version": "1.0.0",
+  "description": "Simple Online Food Restaurant",
+  "engines": {
+    "node": ">=18 <19"
+  },
+  "scripts": {
+    "start": "cd BACKEND/built && node server.js",
+    "prebuild":"cd BACKEND && npm run build",
+    "build":"cd FRONTEND && npm run build"
+  },
+  "author": "Pankaj Kar",
+  "license": "ISC"
+}

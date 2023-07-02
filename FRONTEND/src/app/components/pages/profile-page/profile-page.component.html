@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="details">
+    <h1 class="name">{{user.name}}</h1>
+    <h3 class="email">{{user.email}}</h3>
+    <p class="address">{{user.address}}</p>
+    <div class="buttons">
+        <button class="edit" [routerLink]="[user.id]">Edit</button>
+        <button class="delete">Delete</button>
+    </div>
+  </div>
+</div>

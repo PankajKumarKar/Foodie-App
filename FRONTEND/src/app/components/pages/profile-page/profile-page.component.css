@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3rem;
+}
+
+.container>*{
+    min-width: 25rem;
+    max-width: 40rem;
+}
+
+img{
+    border-radius: 3rem;
+    flex: 1 0;
+    object-fit: cover;
+    height: 30rem;
+    margin: 1rem;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0;
+    border: 3rem;
+    padding: 2rem;
+    color: black;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: 0.5rem 0.8rem;
+    font-weight: 400;
+    width: fit-content;
+    background-color: yellow;
+    opacity: 0.8;   
+    border-radius: 0.2rem;
+}
+
+button:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.delete:hover{
+     background-color: red;
+     color: white;
+}
+.edit:hover{
+    background-color: blue;
+    color: white;
+}
